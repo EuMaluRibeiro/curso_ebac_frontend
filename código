@@ -1,0 +1,26 @@
+# Criar uma pasta para o projeto
+mkdir curso_ebac_frontend
+
+# Entrar na pasta
+cd curso_ebac_frontend
+
+# Iniciar o Git
+git init
+
+# Criar a branch exercicio_git
+git checkout -b exercicio_git
+
+# Criar o arquivo nome.txt
+echo "Maria Luiza Ribeiro" > nome.txt
+
+# Adicionar o arquivo ao stage
+git add nome.txt
+
+# Salvar a alteração com commit
+git commit -m "Adiciona arquivo com nome completo"
+
+# Conectar com o repositório criado no GitHub
+git remote add origin https://github.com/EuMaluRibeiro/curso_ebac_frontend.git
+
+# Enviar a branch para o GitHub
+git push -u origin exercicio_git
